@@ -8,4 +8,6 @@ A 1-bit adder circuit takes in three inputs of 1 bit each, where "a" and "b" are
 The program displays a complete truth table of each logic gate and a full adder.
 
 ## N-Bit Adder
+![n-bit adder](http://www.tutorialspoint.com/computer_logical_organization/images/fourbitadder_blockdiagram.jpg)
+
 ![n-bit adder](https://sites.google.com/a/doversherborn.org/bridger/_/rsrc/1472849469274/home/ap-physics/electronics-lab/-9-four-bit-adder/9a.JPG)
