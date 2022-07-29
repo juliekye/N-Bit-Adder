@@ -16,6 +16,45 @@ A user may provide two arbitrary large binary numbers each of length N to be add
 The binary numbers must be defined within the program as lists in Scheme. <br/>
 After defining these lists, the n-bit-adder function must be called in this format:  n-bit-adder(list1, list2, n) <br/>
 with the predefined lists as parameters and n being the length of the numbers.  <br/>
-There are comments at the end of the file denoting where a user may create test cases. <br/>
-There are default test cases of varying lengths to demonstrate the N-Bit Adder on 4, 8, 16, and 32 bit binary numbers. <br/>
+There are comments at the end of the file denoting where a user may create test cases. If the numbers provided are of different lengths this error message will print in place of the output: "Error: The numbers entered must have the same number of bits". <br/>
+Here there are default test cases of varying lengths to demonstrate the N-Bit Adder on 4, 8, 16, and 32 bit binary numbers. <br/>
+
+
+**To run this program, install DrRacket (http://racket-lang.org/download/) and choose "R5RS" from the language menu**
+
+## Test Cases
+#### Input 1: <br/>
+
+#### Expected Output 1: <br/>
+<pre>
+AND-GATE TRUTH TABLE: 
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+
+OR-GATE TRUTH TABLE: 
+0 0 0
+0 1 1
+1 0 1
+1 1 1
+
+XOR-GATE TRUTH TABLE: 
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+
+FULL ADDER TRUTH TABLE: 
+INPUTS    OUTPUTS
+A B C-in  Sum C-out
+0 0 0     (0 . 0)
+0 0 1     (1 . 0)
+0 1 0     (1 . 0)
+0 1 1     (0 . 1)
+1 0 0     (1 . 0)
+1 0 1     (0 . 1)
+1 1 0     (0 . 1)
+1 1 1     (1 . 1)
+</pre>
 
