@@ -57,18 +57,16 @@ A B C-in  Sum C-out
 </pre>
 
 #### Input 1: <br/>
-<pre>
-(define A1 '(0 1 0 1) ) ;5 (decimal value)
-(define A2 '(1 0 1 1) ) ;11
-</pre>
+(define A1 '(0 1 0 1) ) ;5 (decimal value) <br/>
+(define A2 '(1 0 1 1) ) ;11 <br/>
+<br/>
 #### Expected Output 1: <br/>
-<pre>
-ADDITION OF BINARY NUMBERS 
-(0 1 0 1)
-(1 0 1 1)
-WITH A 4-BIT ADDER: 
-((1) 0 0 0 0)
-</pre>
+ADDITION OF BINARY NUMBERS <br/>
+(0 1 0 1) <br/>
+(1 0 1 1) <br/>
+WITH A 4-BIT ADDER: <br/>
+((1) 0 0 0 0) <br/>
+<br/>
 
 #### Input 2: <br/>
 <pre>
