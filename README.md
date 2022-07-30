@@ -23,9 +23,7 @@ Here there are default test cases of varying lengths to demonstrate the N-Bit Ad
 **To run this program, install DrRacket (http://racket-lang.org/download/) and choose "R5RS" from the language menu**
 
 ## Test Cases
-#### Input 1: <br/>
-
-#### Expected Output 1: <br/>
+#### Default Output: <br/>
 <pre>
 AND-GATE TRUTH TABLE: 
 0 0 0
@@ -58,3 +56,58 @@ A B C-in  Sum C-out
 1 1 1     (1 . 1)
 </pre>
 
+#### Input 1: <br/>
+<pre>
+(define A1 '(0 1 0 1) ) ;5 (decimal value)
+(define A2 '(1 0 1 1) ) ;11
+</pre>
+#### Expected Output 1: <br/>
+<pre>
+ADDITION OF BINARY NUMBERS 
+(0 1 0 1)
+(1 0 1 1)
+WITH A 4-BIT ADDER: 
+((1) 0 0 0 0)
+</pre>
+
+#### Input 2: <br/>
+<pre>
+(define B1 '(0 1 0 1 1 0 1 1) ) ;91
+(define B2 '(1 0 1 1 0 0 1 0) ) ;178
+</pre>
+#### Expected Output 2: <br/>
+<pre>
+ADDITION OF BINARY NUMBERS 
+(0 1 0 1 1 0 1 1)
+(1 0 1 1 0 0 1 0)
+WITH A 8-BIT ADDER: 
+((1) 0 0 0 0 1 1 0 1)
+</pre>
+
+#### Input 3: <br/>
+<pre>
+(define C1 '(1 1 0 1 1 0 1 1 1 0 1 1 0 0 1 0) ) ;56242
+(define C2 '(1 1 1 0 1 1 0 1 0 0 1 1 1 1 1 0) ) ;60734	
+</pre>
+#### Expected Output 3: <br/>
+<pre>
+ADDITION OF BINARY NUMBERS 
+(1 1 0 1 1 0 1 1 1 0 1 1 0 0 1 0)
+(1 1 1 0 1 1 0 1 0 0 1 1 1 1 1 0)
+WITH A 16-BIT ADDER: 
+((1) 1 1 0 0 1 0 0 0 1 1 1 1 0 0 0 0)
+</pre>
+
+#### Input 4: <br/>
+<pre>
+(define D1 '(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1) )	;4294967295
+(define D2 '(1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0) ) ;2863311530
+</pre>
+#### Expected Output 4: <br/>
+<pre>
+ADDITION OF BINARY NUMBERS 
+(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1)
+(1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0)
+WITH A 32-BIT ADDER: 
+((1) 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1)
+</pre>
