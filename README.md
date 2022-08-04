@@ -20,7 +20,7 @@ There are comments at the end of the file denoting where a user may create test 
 Here there are default test cases of varying lengths to demonstrate the N-Bit Adder on 4, 8, 16, and 32 bit binary numbers. <br/>
 
 
-**To run this program, install DrRacket (http://racket-lang.org/download/) and choose "R5RS" from the language menu**
+**To run this program, install [DrRacket](http://racket-lang.org/download/) and choose "R5RS" from the language menu**
 
 ## Test Cases
 #### Default Output: <br/>
